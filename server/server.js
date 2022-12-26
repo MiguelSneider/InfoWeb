@@ -3,7 +3,8 @@ const express = require('express')
 const app = express()
 
 // Levantar el servidor en el puerto 5005
-app.listen(5005, () => console.log('SERVER IS RUNNING'))
+//app.listen(5005, () => console.log('SERVER IS RUNNING'))
+app.listen(process.env.PORT || 5005, () => console.log('SERVER IS RUNNING'))
 
 // realiza el enrutamiento conforme a la url (Routing)
 app.get('/inicio', (req, res) => res.send('<h3>Successful Server Connection</h3>'))
