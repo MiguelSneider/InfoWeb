@@ -1,0 +1,47 @@
+.languageCard {
+    display: inline-block;
+    width: 10%;
+    margin: 4%;
+}
+
+.languageCard img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+
+}
+
+.languageCard h1 {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    text-align: center;    
+}
+
+.titleOne {  
+    text-align: center;
+    font: "Consola" bolder;
+    color: white;
+    font-size: 25px;
+    background-color: rgb(0, 51, 94);
+    padding: 5px 15px;
+}
+
+.bottonOne {
+    font-family: "Consola", bold;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+.bottonOne :link {
+    text-decoration: none; 
+    color: black;
+    padding: 10px 20px;
+}
+
+.bottonOne :link:hover {
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 35px;
+}

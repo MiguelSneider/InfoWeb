@@ -9,7 +9,6 @@ mongoose
     });
 
  //models
-
     const coasterSchema = mongoose.Schema({
         
         name: String,

@@ -1,7 +1,7 @@
 [{
     "name": "Python",
     "yearOfCreation": 1991,
-    "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/800px-Python-logo-notext.svg.png",
     "paradigmUsed": "MultiParadigm",
     "description": "is a high-level, general-purpose programming language. Python is dynamically-typed and garbage collected. It supports multiple programming paradigms, including structured (particularly procedural) object oriented and functional programming. It is often described as a batteries included language due to its comprehensive standard library."
 },
@@ -9,7 +9,7 @@
 {
     "name": "C",
     "yearOfCreation": 1972,
-    "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/The_C_Programming_Language_logo.svg",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/The_C_Programming_Language_logo.svg",
     "paradigmUsed": "MultiParadigm",
     "description": "C is an imperative procedural language, supporting structured programming, lexical variable scope and recursion, with a static type system. It was designed to be compiled to provide low-level access to memory and language constructs that map efficiently to machine instructions, all with minimal runtime support. Despite its low-level capabilities, the language was designed to encourage cross-platform programming. A standards-compliant C program written with portability in mind can be compiled for a wide variety of computer platforms and operating systems with few changes to its source code."
 },
@@ -17,7 +17,7 @@
 {
     "name": "C++",
     "yearOfCreation": 1985,
-    "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/800px-ISO_C%2B%2B_Logo.svg.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/800px-ISO_C%2B%2B_Logo.svg.png",
     "paradigmUsed": "MultiParadigm",
     "description": "C++ (pronounced C plus plus) is a high-level general-purpose programming language created an extension of the C programming language, or C with Classes. The language has expanded significantly over time, and modern C++ now has object-oriented, generic, and functional features in addition to facilities for low-level memory manipulation. It is almost always implemented as a compiled language, and many vendors provide C++ compilers."
 },
@@ -25,7 +25,7 @@
 {
     "name": "Java",
     "yearOfCreation": 1995,
-    "ImageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/800px-Java_programming_language_logo.svg.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/800px-Java_programming_language_logo.svg.png",
     "paradigmUsed": "MultiParadigm",
     "description": "Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere meaning that compiled Java code can run on all platforms that support Java without the need to recompile."
 }, 
@@ -33,7 +33,7 @@
 {
     "name": "C#",
     "yearOfCreation": 2000,
-    "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/C_Sharp_wordmark.svg/1024px-C_Sharp_wordmark.svg.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/C_Sharp_wordmark.svg/1024px-C_Sharp_wordmark.svg.png",
     "paradigmUsed": "MultiParadigm  ",
     "description": "(pronounced see sharp) is a general-purpose, high-level multi-paradigm programming language. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines"
 },
@@ -41,7 +41,7 @@
 {
     "name": "Visual Basic",
     "yearOfCreation": 2001,
-    "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/VB.NET_Logo.svg/1024px-VB.NET_Logo.svg.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/VB.NET_Logo.svg/1024px-VB.NET_Logo.svg.png",
     "paradigmUsed": "MultiParadigm",
     "description": "Visual Basic, originally called Visual Basic .NET (VB.NET), is a multi-paradigm, object-oriented programming language, implemented on .NET, Mono, and the .NET Framework. Microsoft launched VB.NET in 2002 as the successor to its original Visual Basic language, the last version of which was Visual Basic 6.0. Although the .NET portion of the name was dropped in 2005"
 },
@@ -49,7 +49,7 @@
 {
     "name": "JavaScript",
     "yearOfCreation": 1994,
-    "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/800px-Unofficial_JavaScript_logo_2.svg.png",
     "paradigmUsed": "MultiParadigm",
     "description": "JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard. It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM)."
 },
@@ -57,7 +57,7 @@
 {
     "name": "SQL",
     "yearOfCreation": 2016,
-    "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Sql_database_shortcut_icon.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Sql_database_shortcut_icon.png",
     "paradigmUsed": "Declarative",
     "description": "Structured Query Language, abbreviated as SQL. is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS). It is particularly useful in handling structured data, i.e. data incorporating relations among entities and variables."
 },
@@ -65,7 +65,7 @@
 {
     "name": "PHP",
     "yearOfCreation": 1995,
-    "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1280px-PHP-logo.svg.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1280px-PHP-logo.svg.png",
     "paradigmUsed": "MultiParadigm",
     "description": "PHP: Hypertext Preprocessor. PHP code is usually processed on a web server by a PHP interpreter implemented as a module, a daemon or as a Common Gateway Interface (CGI) executable. On a web server, the result of the interpreted and executed PHP code which may be any type of data, such as generated HTML or binary image data would form the whole or part of an HTTP response. Various web template systems, web content management systems, and web frameworks exist which can be employed to orchestrate or facilitate the generation of that response."
 },
@@ -73,7 +73,7 @@
 {
     "name": "R",
     "yearOfCreation": 1993,
-    "ImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/1280px-R_logo.svg.png",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/1280px-R_logo.svg.png",
     "paradigmUsed": "MultiParadigm",
     "description": "R is a programming language for statistical computing and graphics supported by the R Core Team and the R Foundation for Statistical Computing. R is used among data miners, bioinformaticians and statisticians for data analysis and developing statistical software. Users have created packages to augment the functions of the R language."
 }]

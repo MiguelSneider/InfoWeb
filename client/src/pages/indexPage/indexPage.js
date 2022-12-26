@@ -1,14 +1,22 @@
-//import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
-//import './IndexPage.css'
+import './indexPage.css'
 
 const IndexPage = () => {
     return (
         <main>
             { 
-            <h1>Bienvenid@s a la MERN Coasters - UNAB!</h1> }
-             <hr />
-             <a href="/galeria">ver galeria</a>
+            <section class="header">
+                <div class="title">                   
+                    <h1>Welcome to the MERN UNAB!</h1>          
+                    <h3>Programming languages ranking</h3>
+                </div>            
+            </section> 
+            }      
+
+            <div class="botton">
+                    <Link to="/gallery">--- View gallery ---</Link>
+            </div>        
         </main>
     )
 }

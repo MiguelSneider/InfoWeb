@@ -17,12 +17,11 @@ app.get('/api/ranking', (req, res) => {
 
     Ranking
             .find()        
-            //.then(allCoasters => console.log(allCoasters))
             .then(allRanking => res.json(allRanking))
     
-        //res.header("Access-Control-Allow-Origin", "*");
-        //res.header("Access-Control-Allow-Headers", "Content-Type,Content-Length, Authorization, Accept,X-Requested-With");
-        //res.header("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS");
+        res.header("Access-Control-Allow-Origin", "*");
+        res.header("Access-Control-Allow-Headers", "Content-Type,Content-Length, Authorization, Accept,X-Requested-With");
+        res.header("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS");
     })
 
     app.get('/api/details/:ranking_id', (req, res) => {
@@ -33,7 +32,17 @@ app.get('/api/ranking', (req, res) => {
             .findById(ranking_id)
             .then(ranking => res.json(ranking))
         
-        //res.header("Access-Control-Allow-Origin", "*");
-        //res.header("Access-Control-Allow-Headers", "Content-Type,Content-Length, Authorization, Accept,X-Requested-With");
-        //res.header("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS");    
+        res.header("Access-Control-Allow-Origin", "*");
+        res.header("Access-Control-Allow-Headers", "Content-Type,Content-Length, Authorization, Accept,X-Requested-With");
+        res.header("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS");    
     })
+    
+// configuración CORS
+const cors = require('cors')
+//app.use(cors())
+const corsOptions = {
+    origin:'*', 
+    credentials:true,
+    optionSuccessStatus:200,
+ }
+ app.use(cors(corsOptions))
