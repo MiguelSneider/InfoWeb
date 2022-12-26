@@ -3,17 +3,17 @@ const mongoose = require('mongoose')
 mongoose.set('strictQuery', false);
 
 mongoose
-    .connect('mongodb://127.0.0.1:27017/languages', function (error){
-        if (error) throw error;
+    //.connect('mongodb://127.0.0.1:27017/languages', function (error){
+    //    if (error) throw error;
+    .connect('mongodb://mongo:BbX95EiNqJljgWEC9HNn@containers-us-west-186.railway.app:6493')
         console.log('DATABASE CONNECTION');
-    });
 
  //models
     const coasterSchema = mongoose.Schema({
         
         name: String,
         yearOfCreation: Number,
-        logo: String,
+        imageUrl: String,
         paradigmUsed: String,
         description: String
 

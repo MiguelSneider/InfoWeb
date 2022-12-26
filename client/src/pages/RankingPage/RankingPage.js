@@ -1,4 +1,5 @@
 /* eslint-plugin-disable */
+/* eslint-disable-next-line */
 /* eslint-plugin-disable-all jsx-a11y */
 
 import { Link } from 'react-router-dom'
