@@ -12,7 +12,8 @@ const RankingPage = () => {
     const [ranking, setRanking] = useState([])
 
     const loadRanking = () => {
-        fetch('http://localhost:5005/api/ranking')
+        //fetch('http://localhost:5005/api/ranking')
+         fetch('https://deploy-server-production-4e8a.up.railway.app/api/ranking')
         .then(res => res.json())
         .then(allRanking => setRanking(allRanking))
         //.then(allRanking => console.log(allRanking))
