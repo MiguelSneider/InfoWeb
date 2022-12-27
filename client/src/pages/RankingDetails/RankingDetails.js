@@ -11,7 +11,7 @@ const RankingDetails = () => {
     const loadRankingDetails = () => {
 
         //fetch(`http://localhost:5005/api/details/${ranking_id}`)
-        fetch(`https://deploy-server-production-4e8a.up.railway.app/api/details/${ranking_id}`)
+        fetch(`https://infoweb-server-production.up.railway.app/api/details/${ranking_id}`)
             .then(response => response.json())
             .then(ranking => setRanking(ranking)) // al llegar las montañasRusas se guardan usando el método SetCoaster
     }

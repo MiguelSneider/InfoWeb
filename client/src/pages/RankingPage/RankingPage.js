@@ -1,7 +1,3 @@
-/* eslint-plugin-disable */
-/* eslint-disable-next-line */
-/* eslint-plugin-disable-all jsx-a11y */
-
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
@@ -13,7 +9,7 @@ const RankingPage = () => {
 
     const loadRanking = () => {
         //fetch('http://localhost:5005/api/ranking')
-         fetch('https://deploy-server-production-4e8a.up.railway.app/api/ranking')
+         fetch('https://infoweb-server-production.up.railway.app/api/ranking')
         .then(res => res.json())
         .then(allRanking => setRanking(allRanking))
         //.then(allRanking => console.log(allRanking))
