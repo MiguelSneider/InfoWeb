@@ -1,6 +1,6 @@
 // DB connection
 const mongoose = require('mongoose')
-mongoose.set('strictQuery', false);
+//mongoose.set('strictQuery', false);
 
 mongoose
     //.connect('mongodb://127.0.0.1:27017/languages', function (error){
@@ -10,7 +10,7 @@ mongoose
     });
 
  //models
-    const coasterSchema = mongoose.Schema({
+    const rankingSchema = mongoose.Schema({
         
         name: String,
         yearOfCreation: Number,
@@ -21,6 +21,6 @@ mongoose
     })
     
     //const Ranking = mongoose.model('ranking', coasterSchema)
-    const Ranking = mongoose.model('Model', coasterSchema, 'ranking')
+    const Ranking = mongoose.model('Model', rankingSchema, 'ranking')
 
     module.exports = Ranking

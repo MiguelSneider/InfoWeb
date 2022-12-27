@@ -7,22 +7,22 @@ const app = express()
 app.listen(process.env.PORT || 5005, () => console.log('SERVER IS RUNNING'))
 
 // realiza el enrutamiento conforme a la url (Routing)
-app.get('/inicio', (req, res) => res.send('<h3>Successful Server Connection</h3>'))
+//app.get('/inicio', (req, res) => res.send('<h3>Successful Server Connection</h3>'))
 
 //llamado del modelo (Model)
 const Ranking = require('./models/Ranking.model')
 
+// configuración CORS
+
+const cors = require('cors')
+app.use(cors()) // middleware
 
 // Routing
 app.get('/api/ranking', (req, res) => {
 
     Ranking
             .find()        
-            .then(allRanking => res.json(allRanking))
-    
-        res.header("Access-Control-Allow-Origin", "*");
-        res.header("Access-Control-Allow-Headers", "Content-Type,Content-Length, Authorization, Accept,X-Requested-With");
-        res.header("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS");
+            .then(allRanking => res.json(allRanking))  
     })
 
     app.get('/api/details/:ranking_id', (req, res) => {
@@ -32,13 +32,9 @@ app.get('/api/ranking', (req, res) => {
         Ranking
             .findById(ranking_id)
             .then(ranking => res.json(ranking))
-        
-        res.header("Access-Control-Allow-Origin", "*");
-        res.header("Access-Control-Allow-Headers", "Content-Type,Content-Length, Authorization, Accept,X-Requested-With");
-        res.header("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS");    
     })
     
-// configuración CORS
+/* configuración CORS
 const cors = require('cors')
 //app.use(cors())
 const corsOptions = {
@@ -46,4 +42,4 @@ const corsOptions = {
     credentials:true,
     optionSuccessStatus:200,
  }
- app.use(cors(corsOptions))
+ app.use(cors(corsOptions))*/
