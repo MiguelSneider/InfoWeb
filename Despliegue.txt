@@ -1,0 +1,9 @@
+Para hacer el despliegue:
+
+1. subir base de datos a railway
+
+2. hacer despliegue del backend, ejecutar comando: "npm run build"
+   Y subir manualmente la carpeta build a netlify
+
+3. subir la carpeta del servidor sola a github sin los archivos "node-modules"
+   y hacer el deploy desde railway 
